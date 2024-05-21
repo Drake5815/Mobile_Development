@@ -1,0 +1,31 @@
+R_DEF: Internal format may change without notice
+local
+color Background
+color GreenBtn
+color GreenText
+color GreyBox
+color GreyText
+color WhiteText
+drawable blob
+drawable bottom_blob
+drawable darker_blob
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable srt_background
+id imageView2
+id imageView3
+id imageView4
+layout activity_login
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
+string project_id
+style Theme.MobileDevelopment
+xml backup_rules
+xml data_extraction_rules
