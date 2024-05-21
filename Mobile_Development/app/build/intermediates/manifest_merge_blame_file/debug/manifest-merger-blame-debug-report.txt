@@ -7,7 +7,7 @@
 7    <uses-sdk
 8        android:minSdkVersion="27"
 8-->G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="33" />
+9        android:targetSdkVersion="34" />
 9-->G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />

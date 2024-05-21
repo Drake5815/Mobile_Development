@@ -4,32 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login"
     android:background="@color/Background"
-    >
+    tools:context=".Login">
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/darker_blob"
-        tools:layout_editor_absoluteX="178dp"
-        tools:layout_editor_absoluteY="-142dp" />
+        android:layout_marginStart="248dp"
+        android:layout_marginBottom="580dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/darker_blob" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/blob"
-        tools:layout_editor_absoluteX="-89dp"
-        tools:layout_editor_absoluteY="-206dp" />
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/blob" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/bottom_blob"
-        tools:layout_editor_absoluteX="258dp"
-        tools:layout_editor_absoluteY="566dp" />
+        android:layout_marginTop="584dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bottom_blob" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

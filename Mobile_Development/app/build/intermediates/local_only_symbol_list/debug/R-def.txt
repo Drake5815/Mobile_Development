@@ -6,6 +6,13 @@ color GreenText
 color GreyBox
 color GreyText
 color WhiteText
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
 drawable blob
 drawable bottom_blob
 drawable darker_blob

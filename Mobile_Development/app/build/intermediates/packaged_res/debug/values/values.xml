@@ -6,6 +6,13 @@
     <color name="GreyBox">#363636</color>
     <color name="GreyText">#6A6A6A</color>
     <color name="WhiteText">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
     <string name="app_name">MobileDevelopment</string>
     <string name="gcm_defaultSenderId" translatable="false">873500351956</string>
     <string name="google_api_key" translatable="false">AIzaSyC7xZ3vLYvBYpGH9f4CAAa8ecxepEB35-8</string>
