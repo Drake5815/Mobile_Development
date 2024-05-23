@@ -3153,13 +3153,17 @@ int drawable notification_template_icon_bg 0x7f0700fb
 int drawable notification_template_icon_low_bg 0x7f0700fc
 int drawable notification_tile_bg 0x7f0700fd
 int drawable notify_panel_notification_icon_bg 0x7f0700fe
+int drawable rounded_button 0x7f070103
 int drawable srt_background 0x7f0700ff
 int drawable test_level_drawable 0x7f070100
 int drawable tooltip_frame_dark 0x7f070101
 int drawable tooltip_frame_light 0x7f070102
+int font alegreya_sans_sc_regular 0x7f140000
+int font dm_serif_display_regular 0x7f140001
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
+int id Buttons 0x7f08021c
 int id CTRL 0x7f080003
 int id FUNCTION 0x7f080004
 int id META 0x7f080005
@@ -3262,6 +3266,14 @@ int id browser_actions_menu_item_icon 0x7f080065
 int id browser_actions_menu_item_text 0x7f080066
 int id browser_actions_menu_items 0x7f080067
 int id browser_actions_menu_view 0x7f080068
+int id btnBack 0x7f08021d
+int id btnCreate 0x7f08021e
+int id btnForgetPassword 0x7f080208
+int id btnLogin 0x7f080209
+int id btnOTP 0x7f08021f
+int id btnScrnLogin 0x7f080203
+int id btnScrnRegister 0x7f080204
+int id btnTabReg_Register 0x7f080217
 int id buttonPanel 0x7f080069
 int id cache_measures 0x7f08006a
 int id callMeasure 0x7f08006b
@@ -3336,6 +3348,10 @@ int id easeInOut 0x7f0800af
 int id easeOut 0x7f0800b0
 int id east 0x7f0800b1
 int id edge 0x7f0800b2
+int id editTextTextPassword 0x7f080206
+int id editTextTextPassword2 0x7f08020f
+int id editTextTextPassword4 0x7f080210
+int id editTextTextPersonName7 0x7f080220
 int id edit_query 0x7f0800b3
 int id edit_text_id 0x7f0800b4
 int id elastic 0x7f0800b5
@@ -3373,6 +3389,8 @@ int id graph_wrap 0x7f0800d4
 int id group_divider 0x7f0800d5
 int id grouping 0x7f0800d6
 int id groups 0x7f0800d7
+int id grpLogin 0x7f080211
+int id grpRegister 0x7f080212
 int id header_title 0x7f0800d8
 int id hide_ime_id 0x7f0800d9
 int id hideable 0x7f0800da
@@ -3387,9 +3405,9 @@ int id ifRoom 0x7f0800e2
 int id ignore 0x7f0800e3
 int id ignoreRequest 0x7f0800e4
 int id image 0x7f0800e5
+int id imageView 0x7f080202
 int id imageView2 0x7f0800e6
 int id imageView3 0x7f0800e7
-int id imageView4 0x7f0800e8
 int id immediateStop 0x7f0800e9
 int id included 0x7f0800ea
 int id indeterminate 0x7f0800eb
@@ -3406,6 +3424,9 @@ int id left 0x7f0800f5
 int id leftToRight 0x7f0800f6
 int id legacy 0x7f0800f7
 int id light 0x7f0800f8
+int id linForgetPass 0x7f080221
+int id linLogin 0x7f080213
+int id linRegister 0x7f080214
 int id line1 0x7f0800f9
 int id line3 0x7f0800fa
 int id linear 0x7f0800fb
@@ -3619,6 +3640,14 @@ int id textSpacerNoButtons 0x7f0801ca
 int id textSpacerNoTitle 0x7f0801cb
 int id textStart 0x7f0801cc
 int id textTop 0x7f0801cd
+int id textView13 0x7f08020b
+int id textView15 0x7f08020c
+int id textView16 0x7f08020d
+int id textView17 0x7f080218
+int id textView18 0x7f080219
+int id textView19 0x7f08021a
+int id textView20 0x7f08021b
+int id textView21 0x7f080222
 int id text_input_end_icon 0x7f0801ce
 int id text_input_error_icon 0x7f0801cf
 int id text_input_start_icon 0x7f0801d0
@@ -3647,6 +3676,9 @@ int id transition_position 0x7f0801e6
 int id transition_scene_layoutid_cache 0x7f0801e7
 int id transition_transform 0x7f0801e8
 int id triangle 0x7f0801e9
+int id txtEmail 0x7f080215
+int id txtUsername 0x7f080207
+int id txtUsernameReg 0x7f080216
 int id unchecked 0x7f0801ea
 int id uniform 0x7f0801eb
 int id unlabeled 0x7f0801ec
@@ -4360,6 +4392,7 @@ int style Base_Widget_MaterialComponents_TextView 0x7f11011e
 int style CardView 0x7f11011f
 int style CardView_Dark 0x7f110120
 int style CardView_Light 0x7f110121
+int style ItalicText 0x7f110468
 int style MaterialAlertDialog_Material3 0x7f110122
 int style MaterialAlertDialog_Material3_Animation 0x7f110123
 int style MaterialAlertDialog_Material3_Body_Text 0x7f110124
@@ -5198,6 +5231,9 @@ int style Widget_MaterialComponents_Toolbar_PrimarySurface 0x7f110464
 int style Widget_MaterialComponents_Toolbar_Surface 0x7f110465
 int style Widget_MaterialComponents_Tooltip 0x7f110466
 int style Widget_Support_CoordinatorLayout 0x7f110467
+int style greenText 0x7f110469
+int style unused_ClickableButton 0x7f11046a
+int style used_ClickableButton 0x7f11046b
 int[] styleable ActionBar { 0x7f030047, 0x7f03004e, 0x7f03004f, 0x7f03013d, 0x7f03013e, 0x7f03013f, 0x7f030140, 0x7f030141, 0x7f030142, 0x7f03016b, 0x7f03017e, 0x7f03017f, 0x7f03019f, 0x7f030215, 0x7f03021d, 0x7f030223, 0x7f030224, 0x7f030228, 0x7f03023b, 0x7f030252, 0x7f0302cf, 0x7f030352, 0x7f030384, 0x7f03038b, 0x7f03038c, 0x7f030404, 0x7f030408, 0x7f030490, 0x7f03049e }
 int styleable ActionBar_background 0
 int styleable ActionBar_backgroundSplit 1

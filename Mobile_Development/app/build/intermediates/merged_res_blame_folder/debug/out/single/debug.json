@@ -52,8 +52,16 @@
         "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-42:\\xml\\backup_rules.xml"
     },
     {
+        "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-40:\\font_alegreya_sans_sc_regular.ttf.flat",
+        "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-42:\\font\\alegreya_sans_sc_regular.ttf"
+    },
+    {
         "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-40:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-42:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-40:\\font_dm_serif_display_regular.ttf.flat",
+        "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-42:\\font\\dm_serif_display_regular.ttf"
     },
     {
         "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-40:\\layout_activity_login.xml.flat",
@@ -74,6 +82,10 @@
     {
         "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-40:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-42:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-40:\\drawable_rounded_button.xml.flat",
+        "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-42:\\drawable\\rounded_button.xml"
     },
     {
         "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-40:\\drawable_bottom_blob.png.flat",
