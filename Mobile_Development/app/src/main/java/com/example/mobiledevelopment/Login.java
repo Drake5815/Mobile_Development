@@ -21,7 +21,7 @@ public class Login extends AppCompatActivity {
     private Button Back;
     private LinearLayout linOTP;
     private LinearLayout linButtons;
-
+    private DatabaseManager dbManager = new DatabaseManager();
     private void Initialize(){
         //Group
         loginGroup = findViewById(R.id.grpLogin);
@@ -35,7 +35,6 @@ public class Login extends AppCompatActivity {
         //Linear Layout
         linOTP = findViewById(R.id.linForgetPass);
         linButtons = findViewById(R.id.Buttons);
-
     }
 
     @Override
