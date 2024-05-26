@@ -32,8 +32,6 @@ id btnScrnLogin
 id btnScrnRegister
 id btnTabReg_Register
 id editTextTextPassword
-id editTextTextPassword2
-id editTextTextPassword4
 id editTextTextPersonName7
 id grpLogin
 id grpRegister
@@ -51,7 +49,10 @@ id textView18
 id textView19
 id textView20
 id textView21
+id txtConPasswordReg
 id txtEmail
+id txtPassword
+id txtPasswordReg
 id txtUsername
 id txtUsernameReg
 layout activity_login

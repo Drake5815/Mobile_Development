@@ -1,132 +1,89 @@
 -- Merging decision tree log ---
 manifest
-ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:2:1-34:12
-INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:2:1-34:12
-INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:2:1-34:12
-INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:2:1-34:12
-MERGED from [com.google.android.material:material:1.12.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\2f45951585e08bde9c2185a258685e98\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Engilo Grave\.gradle\caches\transforms-3\174c729002e8fb515bba9510db08ecd7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ee9ac9cd3a7520b14f7df2091a7b4ddc\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\24aa450ff42fff118f5af7bbe49e7066\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:17:1-75:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\6a4547cf006796698363aeb867c05187\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8b0c71e6f976de8d0db5292ade9df4a5\transformed\credentials-1.2.0-rc01\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Engilo Grave\.gradle\caches\transforms-3\961fa7ea93a9e7c2cefbe92e6b30ecf0\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:17:1-44:12
-MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\81b4ff9848de6676f5c6d657635d62e6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:17:1-40:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\7b41ea1ac5aff0b1d61895b8ad421eb8\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\fef6d0d5c94c198cd0360e8ebf6c804f\transformed\recaptcha-18.4.0\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\2e387e2aac085701afa25e801b1fb289\transformed\integrity-1.2.0\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bc6acbf2d9d47ad2081fabab8d8a3a48\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:15:1-25:12
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\a1899cced6ac2be2c39002044cf58b1e\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\a6b762f2965b21766144a982b18cb50a\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:2:1-18:12
-MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\b801fd789576430948c354db3e80fb62\transformed\firebase-common-21.0.0\AndroidManifest.xml:15:1-41:12
-MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4f3897d3cd4b2ce0a7942239d836e05a\transformed\play-services-fido-20.1.0\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Engilo Grave\.gradle\caches\transforms-3\91aef74457549afb248a3e9a457fa283\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\580e6b2c5353c4b8608b1af8bc278a34\transformed\play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8b8310a194af85267dc5c6dfa1edf9d4\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\085c3d6dab3d8c962a8a560d8470f5ee\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8191c9e1cd1460c8042e6f787e4fa59b\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\da91eec6b4bb79d82f835b148ea80bcb\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.transition:transition:1.5.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\0d40e290f6a5b157aaf0af25d8feb735\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\0d3f6ec9e6c2539d299bf57bba968a50\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\95bf5c5ab004e65743f19900c8dfe226\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\08d01670b96c012f286ff5196eaa2369\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.browser:browser:1.4.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\eaa84aba83bc0601bb4c0fed1405a79d\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4c88457929c9f6aebcd06ea59deac0bb\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\45c4d050516c2ad663690182e0167eb0\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\49c8045be0927a85d2278ca9f3325d42\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\d6593f74f8c651b2ef64d529ab0f9081\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ec41e3f05880d8a07182f2d6442161a3\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\32ac0ce6937922401a718c64853d2ef3\transformed\core-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.core:core:1.13.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\e0210e47c3240969550ae29654d82b5d\transformed\core-1.13.0\AndroidManifest.xml:17:1-30:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\b391ecbd3aa3c27f27242e954c384aa4\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8bef168be01f6efb436e112d0811c010\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\34ee5be708847aa0594448b09501d3a9\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\41e03bea24b53b8970e32e45e0b5f7ce\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\08c7056713fc8438182e654a1163bcd1\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4754c2d6830186a036b84ddf068073ce\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bdc82ef536b9ecab45ecc090c7c22f33\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\cafbd12d9dc9244e9f2574c5e92bdd6a\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\3e055361ccddcf701fba2538d707538c\transformed\play-services-basement-18.3.0\AndroidManifest.xml:16:1-26:12
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Engilo Grave\.gradle\caches\transforms-3\f0db53fb8087e185cdefd4a3d89e4639\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.activity:activity:1.8.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4932f94a873db19fa1db476b0807ec2c\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\26b58a80e111f1c6a956a20763802191\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\c50b5965d901f8dcbeb78dc91de17e9d\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\1d5e83a612b87b9b9574046c680e8094\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\0a3e5f6cf89cc70a85d2cc4a21ab4dce\transformed\firebase-components-18.0.0\AndroidManifest.xml:15:1-20:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\15f6609f9da052d5017692d38ee7c820\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\3cc88685c2fd8dcabfc3dee30d1a77d4\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\57870e2d72727f25f6d4cbfb5f506f63\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\98dd28c6955228c0f6eb45c119327f73\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\54b1c85995f655017d6a6273944196ec\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\1c04203178cefe1a2d4350e26ba2c961\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4a31eb8fddfaebb21b19cfa8572582ed\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\c5c5b74185495b70182250452bc0291e\transformed\googleid-1.1.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\1baa9b45154ac24d5ea85fe7eaaa992d\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
-INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:2:1-34:12
-INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:2:1-34:12
-INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:2:1-34:12
+ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:2:1-28:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\36a12a9a44207f45f4ff15fa0e95bcc5\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Engilo Grave\.gradle\caches\transforms-3\147e26d005039d89de06c28a10d2ef50\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\6e63832a3405a84aaee7e53bd31858f1\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\0931deaf8fe5d5668d36e75db3205c15\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8c3346c822180050386456683b33dc60\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Engilo Grave\.gradle\caches\transforms-3\99fc2ce4ccc78234e826a4a6178385e1\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\3f9a90e7aeed83b569230141de113ec8\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\04bb27f54247b9c8671ba1b8c45ecd03\transformed\core-ktx-1.13.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\01bbe165c2f9a86389d472d6f051ce97\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4c054dafdd58892e41994b49f068f165\transformed\emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4c442fd79607580e9880bcc0603abf2d\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\3b193e9dbb6acf585f46239583d64b39\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\f35ed4f7f05bde672409c486b8a0a49b\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\678248e407158e9a5297eab662c5e753\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\fd0225362cc1cb6d102d459ec918a947\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\11310dafa86653e72bc30d5025fe4f27\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\7619919187ff4785834c5b630e662bea\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\60bba7b5af532d7e65244ef3f628f4ea\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\5188c6f088e86094010ca0735ac1c967\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8c1697366ad9250455434f60cc68e140\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\1614577b2744d4de297fcba89ea7b89c\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\254b48768421654820b59c251b759de3\transformed\core-1.13.1\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\7c8fcf59f66fa1babddc44ea2c04ac57\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bd355c508b9bc64b34a70d619abd0db1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\eb7f24bbb154863f0709237de835091c\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\22c22f40de4f4fcda28d8cdcfef4db32\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\304a5c9683fb9abf3c729a976ba311eb\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ae4a632f41e3c3bcc1488a2e93891220\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\850abfcaa5feedbbfca2d91b8788b4c7\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\94086e4f55d4e99e817270bf9bd7206f\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\56565562859f77559f6ca7db7a328e76\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bf3bba14b5e899e767149bf66a5bf91b\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bd03ae283e97aef73c5822152645adf1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\f871dc43ae92014e243f54f26346f97f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ea33e5ae278700356a8e66b02a9675a3\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\5bb0e3c071f3fbcd92594d9c96e871ed\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\542ebbe6c0d43026025efb49b4c154d4\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\7a7c875b6c4bdc0bef3b8b001e9f5978\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\0c8780b4cd2aa43d73b39adf5510776f\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\7391be8fea0054c69a5187d776823370\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml
-		ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:2:1-34:12
+		ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml
-		ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:2:1-34:12
+		ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml
-		ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:2:1-34:12
+		ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:5:5-32:19
-MERGED from [com.google.android.material:material:1.12.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\2f45951585e08bde9c2185a258685e98\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.12.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\2f45951585e08bde9c2185a258685e98\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Engilo Grave\.gradle\caches\transforms-3\174c729002e8fb515bba9510db08ecd7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Engilo Grave\.gradle\caches\transforms-3\174c729002e8fb515bba9510db08ecd7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:28:5-73:19
-MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:28:5-73:19
-MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Engilo Grave\.gradle\caches\transforms-3\961fa7ea93a9e7c2cefbe92e6b30ecf0\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:23:5-42:19
-MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Engilo Grave\.gradle\caches\transforms-3\961fa7ea93a9e7c2cefbe92e6b30ecf0\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:23:5-42:19
-MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\81b4ff9848de6676f5c6d657635d62e6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
-MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\81b4ff9848de6676f5c6d657635d62e6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:22:5-38:19
-MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\2e387e2aac085701afa25e801b1fb289\transformed\integrity-1.2.0\AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\2e387e2aac085701afa25e801b1fb289\transformed\integrity-1.2.0\AndroidManifest.xml:5:5-6:19
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bc6acbf2d9d47ad2081fabab8d8a3a48\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:23:5-20
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bc6acbf2d9d47ad2081fabab8d8a3a48\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:23:5-20
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\a1899cced6ac2be2c39002044cf58b1e\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\a1899cced6ac2be2c39002044cf58b1e\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\a6b762f2965b21766144a982b18cb50a\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
-MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\a6b762f2965b21766144a982b18cb50a\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
-MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\b801fd789576430948c354db3e80fb62\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
-MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\b801fd789576430948c354db3e80fb62\transformed\firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
-MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4f3897d3cd4b2ce0a7942239d836e05a\transformed\play-services-fido-20.1.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4f3897d3cd4b2ce0a7942239d836e05a\transformed\play-services-fido-20.1.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\580e6b2c5353c4b8608b1af8bc278a34\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\580e6b2c5353c4b8608b1af8bc278a34\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\085c3d6dab3d8c962a8a560d8470f5ee\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\085c3d6dab3d8c962a8a560d8470f5ee\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.core:core:1.13.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\e0210e47c3240969550ae29654d82b5d\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
-MERGED from [androidx.core:core:1.13.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\e0210e47c3240969550ae29654d82b5d\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8bef168be01f6efb436e112d0811c010\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8bef168be01f6efb436e112d0811c010\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
-MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\cafbd12d9dc9244e9f2574c5e92bdd6a\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\cafbd12d9dc9244e9f2574c5e92bdd6a\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\3e055361ccddcf701fba2538d707538c\transformed\play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\3e055361ccddcf701fba2538d707538c\transformed\play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\15f6609f9da052d5017692d38ee7c820\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\15f6609f9da052d5017692d38ee7c820\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\3cc88685c2fd8dcabfc3dee30d1a77d4\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\3cc88685c2fd8dcabfc3dee30d1a77d4\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:5:5-26:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\36a12a9a44207f45f4ff15fa0e95bcc5\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\36a12a9a44207f45f4ff15fa0e95bcc5\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Engilo Grave\.gradle\caches\transforms-3\147e26d005039d89de06c28a10d2ef50\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Engilo Grave\.gradle\caches\transforms-3\147e26d005039d89de06c28a10d2ef50\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4c054dafdd58892e41994b49f068f165\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4c054dafdd58892e41994b49f068f165\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\254b48768421654820b59c251b759de3\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\254b48768421654820b59c251b759de3\transformed\core-1.13.1\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bd355c508b9bc64b34a70d619abd0db1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bd355c508b9bc64b34a70d619abd0db1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bd03ae283e97aef73c5822152645adf1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bd03ae283e97aef73c5822152645adf1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\f871dc43ae92014e243f54f26346f97f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\f871dc43ae92014e243f54f26346f97f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.13.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\e0210e47c3240969550ae29654d82b5d\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\254b48768421654820b59c251b759de3\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
 	android:supportsRtl
 		ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
@@ -160,139 +117,103 @@ ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\ap
 	android:name
 		ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:20:27-74
 activity#com.example.mobiledevelopment.MainActivity
-ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:23:9-31:20
+ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:23:9-25:40
 	android:exported
-		ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:25:13-36
+		ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:25:13-37
 	android:name
 		ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:24:13-41
+uses-permission#android.permission.INTERNET
+ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:27:5-67
+	android:name
+		ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml:27:22-64
 uses-sdk
 INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml
 INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml
-MERGED from [com.google.android.material:material:1.12.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\2f45951585e08bde9c2185a258685e98\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.12.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\2f45951585e08bde9c2185a258685e98\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Engilo Grave\.gradle\caches\transforms-3\174c729002e8fb515bba9510db08ecd7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Engilo Grave\.gradle\caches\transforms-3\174c729002e8fb515bba9510db08ecd7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ee9ac9cd3a7520b14f7df2091a7b4ddc\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ee9ac9cd3a7520b14f7df2091a7b4ddc\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\24aa450ff42fff118f5af7bbe49e7066\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\24aa450ff42fff118f5af7bbe49e7066\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:21:5-23:151
-MERGED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:21:5-23:151
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\6a4547cf006796698363aeb867c05187\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\6a4547cf006796698363aeb867c05187\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8b0c71e6f976de8d0db5292ade9df4a5\transformed\credentials-1.2.0-rc01\AndroidManifest.xml:5:5-44
-MERGED from [androidx.credentials:credentials:1.2.0-rc01] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8b0c71e6f976de8d0db5292ade9df4a5\transformed\credentials-1.2.0-rc01\AndroidManifest.xml:5:5-44
-MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Engilo Grave\.gradle\caches\transforms-3\961fa7ea93a9e7c2cefbe92e6b30ecf0\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:21:5-44
-MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Engilo Grave\.gradle\caches\transforms-3\961fa7ea93a9e7c2cefbe92e6b30ecf0\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:21:5-44
-MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\81b4ff9848de6676f5c6d657635d62e6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\81b4ff9848de6676f5c6d657635d62e6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\7b41ea1ac5aff0b1d61895b8ad421eb8\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\7b41ea1ac5aff0b1d61895b8ad421eb8\transformed\play-services-auth-api-phone-18.0.2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\fef6d0d5c94c198cd0360e8ebf6c804f\transformed\recaptcha-18.4.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\fef6d0d5c94c198cd0360e8ebf6c804f\transformed\recaptcha-18.4.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\2e387e2aac085701afa25e801b1fb289\transformed\integrity-1.2.0\AndroidManifest.xml:4:5-44
-MERGED from [com.google.android.play:integrity:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\2e387e2aac085701afa25e801b1fb289\transformed\integrity-1.2.0\AndroidManifest.xml:4:5-44
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bc6acbf2d9d47ad2081fabab8d8a3a48\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bc6acbf2d9d47ad2081fabab8d8a3a48\transformed\firebase-appcheck-interop-17.0.0\AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\a1899cced6ac2be2c39002044cf58b1e\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\a1899cced6ac2be2c39002044cf58b1e\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\a6b762f2965b21766144a982b18cb50a\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\a6b762f2965b21766144a982b18cb50a\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\b801fd789576430948c354db3e80fb62\transformed\firebase-common-21.0.0\AndroidManifest.xml:19:5-44
-MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\b801fd789576430948c354db3e80fb62\transformed\firebase-common-21.0.0\AndroidManifest.xml:19:5-44
-MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4f3897d3cd4b2ce0a7942239d836e05a\transformed\play-services-fido-20.1.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-fido:20.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4f3897d3cd4b2ce0a7942239d836e05a\transformed\play-services-fido-20.1.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Engilo Grave\.gradle\caches\transforms-3\91aef74457549afb248a3e9a457fa283\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] C:\Users\Engilo Grave\.gradle\caches\transforms-3\91aef74457549afb248a3e9a457fa283\transformed\play-services-auth-base-18.0.4\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\580e6b2c5353c4b8608b1af8bc278a34\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\580e6b2c5353c4b8608b1af8bc278a34\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8b8310a194af85267dc5c6dfa1edf9d4\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8b8310a194af85267dc5c6dfa1edf9d4\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\085c3d6dab3d8c962a8a560d8470f5ee\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\085c3d6dab3d8c962a8a560d8470f5ee\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8191c9e1cd1460c8042e6f787e4fa59b\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8191c9e1cd1460c8042e6f787e4fa59b\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\da91eec6b4bb79d82f835b148ea80bcb\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\da91eec6b4bb79d82f835b148ea80bcb\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.5.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\0d40e290f6a5b157aaf0af25d8feb735\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.transition:transition:1.5.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\0d40e290f6a5b157aaf0af25d8feb735\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\0d3f6ec9e6c2539d299bf57bba968a50\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\0d3f6ec9e6c2539d299bf57bba968a50\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\95bf5c5ab004e65743f19900c8dfe226\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\95bf5c5ab004e65743f19900c8dfe226\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\08d01670b96c012f286ff5196eaa2369\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\08d01670b96c012f286ff5196eaa2369\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.browser:browser:1.4.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\eaa84aba83bc0601bb4c0fed1405a79d\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.browser:browser:1.4.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\eaa84aba83bc0601bb4c0fed1405a79d\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4c88457929c9f6aebcd06ea59deac0bb\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4c88457929c9f6aebcd06ea59deac0bb\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\45c4d050516c2ad663690182e0167eb0\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\45c4d050516c2ad663690182e0167eb0\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\49c8045be0927a85d2278ca9f3325d42\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\49c8045be0927a85d2278ca9f3325d42\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\d6593f74f8c651b2ef64d529ab0f9081\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\d6593f74f8c651b2ef64d529ab0f9081\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ec41e3f05880d8a07182f2d6442161a3\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.customview:customview:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ec41e3f05880d8a07182f2d6442161a3\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\32ac0ce6937922401a718c64853d2ef3\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core-ktx:1.13.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\32ac0ce6937922401a718c64853d2ef3\transformed\core-ktx-1.13.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.core:core:1.13.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\e0210e47c3240969550ae29654d82b5d\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.13.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\e0210e47c3240969550ae29654d82b5d\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\b391ecbd3aa3c27f27242e954c384aa4\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\b391ecbd3aa3c27f27242e954c384aa4\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8bef168be01f6efb436e112d0811c010\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8bef168be01f6efb436e112d0811c010\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\34ee5be708847aa0594448b09501d3a9\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\34ee5be708847aa0594448b09501d3a9\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\41e03bea24b53b8970e32e45e0b5f7ce\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\41e03bea24b53b8970e32e45e0b5f7ce\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\08c7056713fc8438182e654a1163bcd1\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\08c7056713fc8438182e654a1163bcd1\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4754c2d6830186a036b84ddf068073ce\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4754c2d6830186a036b84ddf068073ce\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bdc82ef536b9ecab45ecc090c7c22f33\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bdc82ef536b9ecab45ecc090c7c22f33\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\cafbd12d9dc9244e9f2574c5e92bdd6a\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\cafbd12d9dc9244e9f2574c5e92bdd6a\transformed\play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\3e055361ccddcf701fba2538d707538c\transformed\play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\3e055361ccddcf701fba2538d707538c\transformed\play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Engilo Grave\.gradle\caches\transforms-3\f0db53fb8087e185cdefd4a3d89e4639\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Engilo Grave\.gradle\caches\transforms-3\f0db53fb8087e185cdefd4a3d89e4639\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.8.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4932f94a873db19fa1db476b0807ec2c\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.8.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4932f94a873db19fa1db476b0807ec2c\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\26b58a80e111f1c6a956a20763802191\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\26b58a80e111f1c6a956a20763802191\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\c50b5965d901f8dcbeb78dc91de17e9d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\c50b5965d901f8dcbeb78dc91de17e9d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\1d5e83a612b87b9b9574046c680e8094\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\1d5e83a612b87b9b9574046c680e8094\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\0a3e5f6cf89cc70a85d2cc4a21ab4dce\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
-MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\0a3e5f6cf89cc70a85d2cc4a21ab4dce\transformed\firebase-components-18.0.0\AndroidManifest.xml:18:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\15f6609f9da052d5017692d38ee7c820\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\15f6609f9da052d5017692d38ee7c820\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\3cc88685c2fd8dcabfc3dee30d1a77d4\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\3cc88685c2fd8dcabfc3dee30d1a77d4\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\57870e2d72727f25f6d4cbfb5f506f63\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\57870e2d72727f25f6d4cbfb5f506f63\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\98dd28c6955228c0f6eb45c119327f73\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\98dd28c6955228c0f6eb45c119327f73\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\54b1c85995f655017d6a6273944196ec\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\54b1c85995f655017d6a6273944196ec\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\1c04203178cefe1a2d4350e26ba2c961\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\1c04203178cefe1a2d4350e26ba2c961\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4a31eb8fddfaebb21b19cfa8572582ed\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4a31eb8fddfaebb21b19cfa8572582ed\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\c5c5b74185495b70182250452bc0291e\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\c5c5b74185495b70182250452bc0291e\transformed\googleid-1.1.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\1baa9b45154ac24d5ea85fe7eaaa992d\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\1baa9b45154ac24d5ea85fe7eaaa992d\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\36a12a9a44207f45f4ff15fa0e95bcc5\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\36a12a9a44207f45f4ff15fa0e95bcc5\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Engilo Grave\.gradle\caches\transforms-3\147e26d005039d89de06c28a10d2ef50\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Engilo Grave\.gradle\caches\transforms-3\147e26d005039d89de06c28a10d2ef50\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\6e63832a3405a84aaee7e53bd31858f1\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\6e63832a3405a84aaee7e53bd31858f1\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\0931deaf8fe5d5668d36e75db3205c15\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\0931deaf8fe5d5668d36e75db3205c15\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8c3346c822180050386456683b33dc60\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8c3346c822180050386456683b33dc60\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Engilo Grave\.gradle\caches\transforms-3\99fc2ce4ccc78234e826a4a6178385e1\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Engilo Grave\.gradle\caches\transforms-3\99fc2ce4ccc78234e826a4a6178385e1\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\3f9a90e7aeed83b569230141de113ec8\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\3f9a90e7aeed83b569230141de113ec8\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\04bb27f54247b9c8671ba1b8c45ecd03\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\04bb27f54247b9c8671ba1b8c45ecd03\transformed\core-ktx-1.13.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\01bbe165c2f9a86389d472d6f051ce97\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\01bbe165c2f9a86389d472d6f051ce97\transformed\emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4c054dafdd58892e41994b49f068f165\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4c054dafdd58892e41994b49f068f165\transformed\emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4c442fd79607580e9880bcc0603abf2d\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4c442fd79607580e9880bcc0603abf2d\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\3b193e9dbb6acf585f46239583d64b39\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\3b193e9dbb6acf585f46239583d64b39\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\f35ed4f7f05bde672409c486b8a0a49b\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\f35ed4f7f05bde672409c486b8a0a49b\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\678248e407158e9a5297eab662c5e753\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\678248e407158e9a5297eab662c5e753\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\fd0225362cc1cb6d102d459ec918a947\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\fd0225362cc1cb6d102d459ec918a947\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\11310dafa86653e72bc30d5025fe4f27\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\11310dafa86653e72bc30d5025fe4f27\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\7619919187ff4785834c5b630e662bea\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\7619919187ff4785834c5b630e662bea\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\60bba7b5af532d7e65244ef3f628f4ea\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\60bba7b5af532d7e65244ef3f628f4ea\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\5188c6f088e86094010ca0735ac1c967\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\5188c6f088e86094010ca0735ac1c967\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8c1697366ad9250455434f60cc68e140\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8c1697366ad9250455434f60cc68e140\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\1614577b2744d4de297fcba89ea7b89c\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\1614577b2744d4de297fcba89ea7b89c\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\254b48768421654820b59c251b759de3\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\254b48768421654820b59c251b759de3\transformed\core-1.13.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\7c8fcf59f66fa1babddc44ea2c04ac57\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\7c8fcf59f66fa1babddc44ea2c04ac57\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bd355c508b9bc64b34a70d619abd0db1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bd355c508b9bc64b34a70d619abd0db1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\eb7f24bbb154863f0709237de835091c\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\eb7f24bbb154863f0709237de835091c\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\22c22f40de4f4fcda28d8cdcfef4db32\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\22c22f40de4f4fcda28d8cdcfef4db32\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\304a5c9683fb9abf3c729a976ba311eb\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\304a5c9683fb9abf3c729a976ba311eb\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ae4a632f41e3c3bcc1488a2e93891220\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ae4a632f41e3c3bcc1488a2e93891220\transformed\lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\850abfcaa5feedbbfca2d91b8788b4c7\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\850abfcaa5feedbbfca2d91b8788b4c7\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\94086e4f55d4e99e817270bf9bd7206f\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\94086e4f55d4e99e817270bf9bd7206f\transformed\annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\56565562859f77559f6ca7db7a328e76\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\56565562859f77559f6ca7db7a328e76\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bf3bba14b5e899e767149bf66a5bf91b\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bf3bba14b5e899e767149bf66a5bf91b\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bd03ae283e97aef73c5822152645adf1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bd03ae283e97aef73c5822152645adf1\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\f871dc43ae92014e243f54f26346f97f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\f871dc43ae92014e243f54f26346f97f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ea33e5ae278700356a8e66b02a9675a3\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ea33e5ae278700356a8e66b02a9675a3\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\5bb0e3c071f3fbcd92594d9c96e871ed\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\5bb0e3c071f3fbcd92594d9c96e871ed\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\542ebbe6c0d43026025efb49b4c154d4\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\542ebbe6c0d43026025efb49b4c154d4\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\7a7c875b6c4bdc0bef3b8b001e9f5978\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\7a7c875b6c4bdc0bef3b8b001e9f5978\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\0c8780b4cd2aa43d73b39adf5510776f\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\0c8780b4cd2aa43d73b39adf5510776f\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\7391be8fea0054c69a5187d776823370\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\7391be8fea0054c69a5187d776823370\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml
 INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:23:9-148
 	android:targetSdkVersion
 		INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml
 		ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml
@@ -301,265 +222,93 @@ INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development
 		INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml
 		ADDED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml
 		INJECTED from G:\GithubDesktop\MobileDev02\Mobile_Development\Mobile_Development\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:25:5-67
-MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\fef6d0d5c94c198cd0360e8ebf6c804f\transformed\recaptcha-18.4.0\AndroidManifest.xml:7:5-67
-MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\fef6d0d5c94c198cd0360e8ebf6c804f\transformed\recaptcha-18.4.0\AndroidManifest.xml:7:5-67
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:25:22-64
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:26:5-79
-MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\fef6d0d5c94c198cd0360e8ebf6c804f\transformed\recaptcha-18.4.0\AndroidManifest.xml:8:5-79
-MERGED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\fef6d0d5c94c198cd0360e8ebf6c804f\transformed\recaptcha-18.4.0\AndroidManifest.xml:8:5-79
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:26:22-76
-activity#com.google.firebase.auth.internal.GenericIdpActivity
-ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:29:9-46:20
-	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:31:13-46
-	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:33:13-44
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:32:13-36
-	android:theme
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:34:13-72
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:30:13-80
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
-ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:35:13-45:29
-action#android.intent.action.VIEW
-ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:36:17-69
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:36:25-66
-category#android.intent.category.DEFAULT
-ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:38:17-76
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:38:27-73
-category#android.intent.category.BROWSABLE
-ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:39:17-78
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:39:27-75
-data
-ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:41:17-44:51
-	android:path
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:43:21-37
-	android:host
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:42:21-49
-	android:scheme
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:44:21-48
-activity#com.google.firebase.auth.internal.RecaptchaActivity
-ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:47:9-64:20
-	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:49:13-46
-	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:51:13-44
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:50:13-36
-	android:theme
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:52:13-72
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:48:13-79
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
-ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:53:13-63:29
-service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:66:9-72:19
-MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\a6b762f2965b21766144a982b18cb50a\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
-MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\a6b762f2965b21766144a982b18cb50a\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
-MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\b801fd789576430948c354db3e80fb62\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
-MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\b801fd789576430948c354db3e80fb62\transformed\firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:68:13-37
-	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\b801fd789576430948c354db3e80fb62\transformed\firebase-common-21.0.0\AndroidManifest.xml:34:13-32
-	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\b801fd789576430948c354db3e80fb62\transformed\firebase-common-21.0.0\AndroidManifest.xml:32:13-43
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:67:13-84
-meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
-ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:69:13-71:85
-	android:value
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:71:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:23.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8ed2a43d6984838af9c549fc7473ffa4\transformed\firebase-auth-23.0.0\AndroidManifest.xml:70:17-109
-service#androidx.credentials.playservices.CredentialProviderMetadataHolder
-ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Engilo Grave\.gradle\caches\transforms-3\961fa7ea93a9e7c2cefbe92e6b30ecf0\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
-	android:enabled
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Engilo Grave\.gradle\caches\transforms-3\961fa7ea93a9e7c2cefbe92e6b30ecf0\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
-	android:exported
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Engilo Grave\.gradle\caches\transforms-3\961fa7ea93a9e7c2cefbe92e6b30ecf0\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
-	tools:ignore
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Engilo Grave\.gradle\caches\transforms-3\961fa7ea93a9e7c2cefbe92e6b30ecf0\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:28:13-60
-	android:name
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Engilo Grave\.gradle\caches\transforms-3\961fa7ea93a9e7c2cefbe92e6b30ecf0\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
-meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
-ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Engilo Grave\.gradle\caches\transforms-3\961fa7ea93a9e7c2cefbe92e6b30ecf0\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
-	android:value
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Engilo Grave\.gradle\caches\transforms-3\961fa7ea93a9e7c2cefbe92e6b30ecf0\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
-	android:name
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Engilo Grave\.gradle\caches\transforms-3\961fa7ea93a9e7c2cefbe92e6b30ecf0\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
-activity#androidx.credentials.playservices.HiddenActivity
-ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Engilo Grave\.gradle\caches\transforms-3\961fa7ea93a9e7c2cefbe92e6b30ecf0\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
-	android:fitsSystemWindows
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Engilo Grave\.gradle\caches\transforms-3\961fa7ea93a9e7c2cefbe92e6b30ecf0\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
-	android:enabled
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Engilo Grave\.gradle\caches\transforms-3\961fa7ea93a9e7c2cefbe92e6b30ecf0\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
-	android:exported
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Engilo Grave\.gradle\caches\transforms-3\961fa7ea93a9e7c2cefbe92e6b30ecf0\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
-	android:configChanges
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Engilo Grave\.gradle\caches\transforms-3\961fa7ea93a9e7c2cefbe92e6b30ecf0\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
-	android:theme
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Engilo Grave\.gradle\caches\transforms-3\961fa7ea93a9e7c2cefbe92e6b30ecf0\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
-	android:name
-		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\Engilo Grave\.gradle\caches\transforms-3\961fa7ea93a9e7c2cefbe92e6b30ecf0\transformed\credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
-activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\81b4ff9848de6676f5c6d657635d62e6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
-	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\81b4ff9848de6676f5c6d657635d62e6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
-	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\81b4ff9848de6676f5c6d657635d62e6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\81b4ff9848de6676f5c6d657635d62e6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
-	android:name
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\81b4ff9848de6676f5c6d657635d62e6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
-service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\81b4ff9848de6676f5c6d657635d62e6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
-	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\81b4ff9848de6676f5c6d657635d62e6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
-	android:visibleToInstantApps
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\81b4ff9848de6676f5c6d657635d62e6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
-	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\81b4ff9848de6676f5c6d657635d62e6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
-	android:name
-		ADDED from [com.google.android.gms:play-services-auth:20.7.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\81b4ff9848de6676f5c6d657635d62e6\transformed\play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
-uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
-ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\fef6d0d5c94c198cd0360e8ebf6c804f\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:5-98
-	android:name
-		ADDED from [com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\fef6d0d5c94c198cd0360e8ebf6c804f\transformed\recaptcha-18.4.0\AndroidManifest.xml:9:22-95
-meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
-ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\a6b762f2965b21766144a982b18cb50a\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
-	android:value
-		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\a6b762f2965b21766144a982b18cb50a\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\a6b762f2965b21766144a982b18cb50a\transformed\firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\b801fd789576430948c354db3e80fb62\transformed\firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\b801fd789576430948c354db3e80fb62\transformed\firebase-common-21.0.0\AndroidManifest.xml:25:13-72
-	android:exported
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\b801fd789576430948c354db3e80fb62\transformed\firebase-common-21.0.0\AndroidManifest.xml:27:13-37
-	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\b801fd789576430948c354db3e80fb62\transformed\firebase-common-21.0.0\AndroidManifest.xml:26:13-43
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\b801fd789576430948c354db3e80fb62\transformed\firebase-common-21.0.0\AndroidManifest.xml:28:13-36
-	android:name
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\b801fd789576430948c354db3e80fb62\transformed\firebase-common-21.0.0\AndroidManifest.xml:24:13-77
-meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
-ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\b801fd789576430948c354db3e80fb62\transformed\firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
-	android:value
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\b801fd789576430948c354db3e80fb62\transformed\firebase-common-21.0.0\AndroidManifest.xml:37:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\b801fd789576430948c354db3e80fb62\transformed\firebase-common-21.0.0\AndroidManifest.xml:36:17-109
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\580e6b2c5353c4b8608b1af8bc278a34\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\580e6b2c5353c4b8608b1af8bc278a34\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\580e6b2c5353c4b8608b1af8bc278a34\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\580e6b2c5353c4b8608b1af8bc278a34\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
 provider#androidx.startup.InitializationProvider
-ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\085c3d6dab3d8c962a8a560d8470f5ee\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8bef168be01f6efb436e112d0811c010\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8bef168be01f6efb436e112d0811c010\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\3cc88685c2fd8dcabfc3dee30d1a77d4\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
-MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\3cc88685c2fd8dcabfc3dee30d1a77d4\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4c054dafdd58892e41994b49f068f165\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bd355c508b9bc64b34a70d619abd0db1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bd355c508b9bc64b34a70d619abd0db1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\f871dc43ae92014e243f54f26346f97f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\f871dc43ae92014e243f54f26346f97f\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
 	tools:node
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\085c3d6dab3d8c962a8a560d8470f5ee\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4c054dafdd58892e41994b49f068f165\transformed\emoji2-1.2.0\AndroidManifest.xml:28:13-31
 	android:authorities
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\085c3d6dab3d8c962a8a560d8470f5ee\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4c054dafdd58892e41994b49f068f165\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
 	android:exported
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\085c3d6dab3d8c962a8a560d8470f5ee\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4c054dafdd58892e41994b49f068f165\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\085c3d6dab3d8c962a8a560d8470f5ee\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4c054dafdd58892e41994b49f068f165\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\085c3d6dab3d8c962a8a560d8470f5ee\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4c054dafdd58892e41994b49f068f165\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\085c3d6dab3d8c962a8a560d8470f5ee\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4c054dafdd58892e41994b49f068f165\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\085c3d6dab3d8c962a8a560d8470f5ee\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\4c054dafdd58892e41994b49f068f165\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
 permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\e0210e47c3240969550ae29654d82b5d\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.13.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\254b48768421654820b59c251b759de3\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\e0210e47c3240969550ae29654d82b5d\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\254b48768421654820b59c251b759de3\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.13.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\e0210e47c3240969550ae29654d82b5d\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\254b48768421654820b59c251b759de3\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
 permission#com.example.mobiledevelopment.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\e0210e47c3240969550ae29654d82b5d\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+ADDED from [androidx.core:core:1.13.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\254b48768421654820b59c251b759de3\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
-		ADDED from [androidx.core:core:1.13.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\e0210e47c3240969550ae29654d82b5d\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\254b48768421654820b59c251b759de3\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
 	android:name
-		ADDED from [androidx.core:core:1.13.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\e0210e47c3240969550ae29654d82b5d\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\254b48768421654820b59c251b759de3\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
 uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\e0210e47c3240969550ae29654d82b5d\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.13.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\254b48768421654820b59c251b759de3\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.13.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\e0210e47c3240969550ae29654d82b5d\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\254b48768421654820b59c251b759de3\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 uses-permission#com.example.mobiledevelopment.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
-ADDED from [androidx.core:core:1.13.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\e0210e47c3240969550ae29654d82b5d\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+ADDED from [androidx.core:core:1.13.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\254b48768421654820b59c251b759de3\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
 	android:name
-		ADDED from [androidx.core:core:1.13.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\e0210e47c3240969550ae29654d82b5d\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+		ADDED from [androidx.core:core:1.13.1] C:\Users\Engilo Grave\.gradle\caches\transforms-3\254b48768421654820b59c251b759de3\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8bef168be01f6efb436e112d0811c010\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bd355c508b9bc64b34a70d619abd0db1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8bef168be01f6efb436e112d0811c010\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bd355c508b9bc64b34a70d619abd0db1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\8bef168be01f6efb436e112d0811c010\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\3e055361ccddcf701fba2538d707538c\transformed\play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\3e055361ccddcf701fba2538d707538c\transformed\play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\3e055361ccddcf701fba2538d707538c\transformed\play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Engilo Grave\.gradle\caches\transforms-3\bd355c508b9bc64b34a70d619abd0db1\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
 meta-data#androidx.profileinstaller.ProfileInstallerInitializer
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
 receiver#androidx.profileinstaller.ProfileInstallReceiver
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
 	android:enabled
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
 	android:exported
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
 	android:permission
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
 	android:directBootAware
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
 intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
 action#androidx.profileinstaller.action.INSTALL_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
 intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
 action#androidx.profileinstaller.action.SKIP_FILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
 intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
 action#androidx.profileinstaller.action.SAVE_PROFILE
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
 intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
 action#androidx.profileinstaller.action.BENCHMARK_OPERATION
-ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
 	android:name
-		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\224efd879e08a224a811dd004701278f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Engilo Grave\.gradle\caches\transforms-3\ddd63a4d0ebaa8f57e4eb14eb7fae3af\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
