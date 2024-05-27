@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/menu"
+        android:gravity="center_vertical|start"
+        android:width="50dp"
+        android:padding="5dp"/>
+    <item android:drawable="@drawable/profile"
+        android:gravity="center_vertical|end"
+        android:width="50dp"
+        android:padding="50dp"/>
+</layer-list>

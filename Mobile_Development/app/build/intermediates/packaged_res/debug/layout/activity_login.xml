@@ -54,7 +54,7 @@
         android:layout_height="60dp"
         android:layout_marginTop="30dp"
         android:orientation="horizontal"
-        android:visibility="gone"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -106,7 +106,7 @@
             android:layout_height="wrap_content">
 
             <EditText
-                android:id="@+id/editTextTextPassword"
+                android:id="@+id/txtPassword"
                 android:layout_width="370dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="20dp"
@@ -146,7 +146,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.931"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+                app:layout_constraintTop_toBottomOf="@+id/txtPassword"
                 app:layout_constraintVertical_bias="0.0" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -260,7 +260,7 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <EditText
-                android:id="@+id/editTextTextPassword2"
+                android:id="@+id/txtPasswordReg"
                 android:layout_width="370dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="20dp"
@@ -273,7 +273,7 @@
                 app:layout_constraintVertical_bias="0.0" />
 
             <EditText
-                android:id="@+id/editTextTextPassword4"
+                android:id="@+id/txtConPasswordReg"
                 android:layout_width="370dp"
                 android:layout_height="50dp"
                 android:ems="10"
@@ -281,7 +281,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword2" />
+                app:layout_constraintTop_toBottomOf="@+id/txtPasswordReg" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -488,14 +488,14 @@
         android:id="@+id/grpLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="visible"
+        android:visibility="gone"
         app:constraint_referenced_ids="linLogin,textView15,textView16" />
 
     <androidx.constraintlayout.widget.Group
         android:id="@+id/grpRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:visibility="gone"
+        android:visibility="visible"
         app:constraint_referenced_ids="linRegister,textView17,textView20,textView18,textView19" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
