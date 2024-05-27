@@ -20,6 +20,14 @@
         "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
+        "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\drawable_profile.png.flat",
+        "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\drawable\\profile.png"
+    },
+    {
+        "merged": "com.example.mobiledevelopment.app-merged_res-33:/drawable_house.xml.flat",
+        "source": "com.example.mobiledevelopment.app-main-35:/drawable/house.xml"
+    },
+    {
         "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
     },
@@ -40,12 +48,28 @@
         "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\drawable\\srt_background.png"
     },
     {
+        "merged": "com.example.mobiledevelopment.app-merged_res-33:/drawable_hotels.png.flat",
+        "source": "com.example.mobiledevelopment.app-main-35:/drawable/hotels.png"
+    },
+    {
+        "merged": "com.example.mobiledevelopment.app-merged_res-33:/drawable_water.png.flat",
+        "source": "com.example.mobiledevelopment.app-main-35:/drawable/water.png"
+    },
+    {
         "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\drawable_search.png.flat",
+        "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\drawable\\search.png"
+    },
+    {
+        "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\drawable_favorite.png.flat",
+        "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\drawable\\favorite.png"
     },
     {
         "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\font_dm_serif_display_regular.ttf.flat",
@@ -56,6 +80,14 @@
         "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\drawable\\bottom_blob.png"
     },
     {
+        "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\drawable_back.png.flat",
+        "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\drawable\\back.png"
+    },
+    {
+        "merged": "com.example.mobiledevelopment.app-merged_res-33:/layout_activity_home_page.xml.flat",
+        "source": "com.example.mobiledevelopment.app-main-35:/layout/activity_home_page.xml"
+    },
+    {
         "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\mipmap-hdpi\\ic_launcher.webp"
     },
@@ -64,16 +96,44 @@
         "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\layout_activity_home_page.xml.flat",
+        "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\layout\\activity_home_page.xml"
+    },
+    {
         "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.mobiledevelopment.app-merged_res-33:/drawable_search_bar.xml.flat",
+        "source": "com.example.mobiledevelopment.app-main-35:/drawable/search_bar.xml"
+    },
+    {
+        "merged": "com.example.mobiledevelopment.app-merged_res-33:/drawable_rent.png.flat",
+        "source": "com.example.mobiledevelopment.app-main-35:/drawable/rent.png"
+    },
+    {
+        "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\layout_activity_viewer_page.xml.flat",
+        "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\layout\\activity_viewer_page.xml"
     },
     {
         "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\xml\\data_extraction_rules.xml"
     },
     {
+        "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\drawable_src_profile.xml.flat",
+        "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\drawable\\src_profile.xml"
+    },
+    {
         "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.mobiledevelopment.app-merged_res-33:/drawable_apartment.png.flat",
+        "source": "com.example.mobiledevelopment.app-main-35:/drawable/apartment.png"
+    },
+    {
+        "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\layout_activity_designing_page.xml.flat",
+        "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\layout\\activity_designing_page.xml"
     },
     {
         "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
@@ -84,8 +144,12 @@
         "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.mobiledevelopment.app-merged_res-33:/layout_activity_main.xml.flat",
-        "source": "com.example.mobiledevelopment.app-main-35:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\layout_activity_booking_page.xml.flat",
+        "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\layout\\activity_booking_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\layout_activity_upload_page.xml.flat",
+        "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\layout\\activity_upload_page.xml"
     },
     {
         "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -96,12 +160,20 @@
         "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\xml\\backup_rules.xml"
     },
     {
+        "merged": "com.example.mobiledevelopment.app-merged_res-33:/drawable_home.png.flat",
+        "source": "com.example.mobiledevelopment.app-main-35:/drawable/home.png"
+    },
+    {
         "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
         "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\mipmap-anydpi-v33\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\drawable_menu.png.flat",
+        "source": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-main-35:\\drawable\\menu.png"
     },
     {
         "merged": "C:\\Users\\Engilo Grave\\.gradle\\daemon\\7.5\\com.example.mobiledevelopment.app-merged_res-33:\\drawable_rounded_button.xml.flat",

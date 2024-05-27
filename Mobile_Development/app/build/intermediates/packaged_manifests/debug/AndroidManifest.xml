@@ -29,7 +29,19 @@
         android:testOnly="true"
         android:theme="@style/Theme.MobileDevelopment" >
         <activity
-            android:name="com.example.mobiledevelopment.Login"
+            android:name="com.example.mobiledevelopment.DesigningPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mobiledevelopment.UploadPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mobiledevelopment.BookingPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mobiledevelopment.ViewerPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.mobiledevelopment.HomePage"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,6 +49,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.mobiledevelopment.Login"
+            android:exported="false" />
         <activity
             android:name="com.example.mobiledevelopment.MainActivity"
             android:exported="false" />
