@@ -4,20 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.Group;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 import android.widget.Toast;
-
-import com.mongodb.client.FindIterable;
-
-import org.bson.Document;
-import org.w3c.dom.Text;
-
-import java.util.HashMap;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class Login extends AppCompatActivity {
 
@@ -30,7 +24,7 @@ public class Login extends AppCompatActivity {
     private Button Back;
     private Button Register;
     private Button Login;
-    private EditText txtUsername;
+    private EditText txtLgnEmail;
     private EditText txtPassword;
     private EditText txtEmail;
     private EditText txtUsernameReg;
@@ -38,10 +32,10 @@ public class Login extends AppCompatActivity {
     private EditText txtConPasswordReg;
     private LinearLayout linOTP;
     private LinearLayout linButtons;
-    private DatabaseManager dbManager;
+    private FirebaseAuth mAuth;
     private void Initialize(){
-        //Managers
-        dbManager = new DatabaseManager();
+        //FireBase
+        mAuth = FirebaseAuth.getInstance();
         //Group
         loginGroup = findViewById(R.id.grpLogin);
         registerGroup = findViewById(R.id.grpRegister);
@@ -54,7 +48,7 @@ public class Login extends AppCompatActivity {
         Register = findViewById(R.id.btnTabReg_Register);
         Login = findViewById(R.id.btnLogin);
         //TextBox
-        txtUsername = (EditText)findViewById(R.id.txtUsername);
+        txtLgnEmail = (EditText)findViewById(R.id.txtEmailLgn);
         txtPassword = (EditText)findViewById(R.id.txtPassword);
         txtEmail = (EditText)findViewById(R.id.txtEmail);
         txtUsernameReg = (EditText)findViewById(R.id.txtUsernameReg);
@@ -66,93 +60,55 @@ public class Login extends AppCompatActivity {
     }
 
     @SuppressLint("NotConstructor")
-    private boolean Login(){
-        String email = txtUsername.getText().toString();
-        String password = txtPassword.getText().toString(); // Assuming you have an input for password
-
-        // Check for empty fields
-        if (email.isEmpty() || password.isEmpty()) {
-            Toast.makeText(Login.this, "Please enter both email and password", Toast.LENGTH_SHORT).show();
-            return false;
-        }
-
-        // Query MongoDB for the account with the given email
-        Document query = new Document("Email", email);
-        FindIterable<Document> documents = dbManager.getCollection("Acc").find(query);
-        Document accountDocument = documents.first();
-
-        if (accountDocument != null) {
-            // Check if the entered password matches the stored password
-            String storedPassword = accountDocument.getString("Password");
-            if (password.equals(storedPassword)) {
-                // Successful login
-                Toast.makeText(Login.this, "Login successful!", Toast.LENGTH_SHORT).show();
-                return true;
-            } else {
-                // Incorrect password
-                Toast.makeText(Login.this, "Incorrect password", Toast.LENGTH_SHORT).show();
-                return false;
-            }
-        } else {
-            // Account with the given email doesn't exist
-            Toast.makeText(Login.this, "Account not found", Toast.LENGTH_SHORT).show();
-            return false;
-        }
+    private void Login(String email, String password){
+        mAuth.signInWithEmailAndPassword(email, password)
+                .addOnCompleteListener(task -> {
+                    if (task.isSuccessful()) {
+                        Toast.makeText(this, "Logged-In", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(Login.this, HomePage.class);
+                        startActivity(intent);
+                    } else {
+                        Toast.makeText(this, "Credentials does not match with Database", Toast.LENGTH_SHORT).show();
+                    }
+                });
     }
 
-    private boolean Register(){
-        HashMap<String, String> Account = new HashMap<>();
-        String email = txtEmail.getText().toString();
-        String username = txtUsernameReg.getText().toString();
-        String password = txtPasswordReg.getText().toString();
-        String ConPassword = txtConPasswordReg.getText().toString();
-
-
-
-        if (email.isEmpty()){
-            Toast.makeText(Login.this, "Email does not have entry", Toast.LENGTH_SHORT).show();
-        }
-        if (username.isEmpty()){
-            Toast.makeText(Login.this, "Username does not have entry", Toast.LENGTH_SHORT).show();
-        }
-        if (password.isEmpty()){
-            Toast.makeText(Login.this, "Password does not have entry", Toast.LENGTH_SHORT).show();
-            return false;
-        }
-        if (ConPassword.isEmpty()){
-            Toast.makeText(Login.this, "Confirm Password does not have entry", Toast.LENGTH_SHORT).show();
-        }
-
-        if(password.equals(ConPassword)){
-            Account.put("Email", email);
-            Account.put("Username", username);
-            Account.put("Password", password);
-
-            dbManager.createAccount("Acc", Account);
-            Toast.makeText(Login.this, "Register", Toast.LENGTH_SHORT).show();
-            return true;
-        } else {
-            txtPasswordReg.setText("");
-            txtConPasswordReg.setText("");
-            Toast.makeText(Login.this, "Password doesn't match", Toast.LENGTH_SHORT).show();
-        }
-
-        return false;
+    private void Register(String email, String password){
+        mAuth.createUserWithEmailAndPassword(email, password)
+                .addOnCompleteListener(task -> {
+                    if (task.isSuccessful()) {
+                        Toast.makeText(this, "Account has been Registered", Toast.LENGTH_SHORT).show();
+                    } else {
+                        Toast.makeText(this, "Something went wrong please retry", Toast.LENGTH_SHORT).show();
+                    }
+                });
     }
 
     private void Button(){
-//        Login.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Login();
-//            }
-//        });
-//        Register.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Register();
-//            }
-//        });
+        Login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(txtLgnEmail.getText().toString() == null || txtPassword.getText().toString() == null){
+                    Toast.makeText(Login.this, "Please put insert missing information", Toast.LENGTH_SHORT).show();
+                } else {
+                    Login(txtLgnEmail.getText().toString(), txtPassword.getText().toString());
+                }
+            }
+        });
+        Register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(txtEmail.getText().toString() == null || txtPasswordReg.getText().toString() == null || txtConPasswordReg.getText().toString() == null){
+                    Toast.makeText(Login.this, "Please fill-in any lacking Information", Toast.LENGTH_SHORT).show();
+                } else {
+                    if(!txtPasswordReg.getText().toString().equals(txtConPasswordReg.getText().toString())){
+                        Toast.makeText(Login.this, "Password does not match!", Toast.LENGTH_SHORT).show();
+                    } else {
+                        Register(txtLgnEmail.getText().toString(), txtPassword.getText().toString());
+                    }
+                }
+            }
+        });
         btnScrnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -206,6 +162,8 @@ public class Login extends AppCompatActivity {
 
         Initialize();
         Button();
+
+
 
     }
 }
