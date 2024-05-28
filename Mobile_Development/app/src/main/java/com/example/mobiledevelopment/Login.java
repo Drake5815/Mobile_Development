@@ -74,14 +74,18 @@ public class Login extends AppCompatActivity {
     }
 
     private void Register(String email, String password){
-        mAuth.createUserWithEmailAndPassword(email, password)
-                .addOnCompleteListener(task -> {
-                    if (task.isSuccessful()) {
-                        Toast.makeText(this, "Account has been Registered", Toast.LENGTH_SHORT).show();
-                    } else {
-                        Toast.makeText(this, "Something went wrong please retry", Toast.LENGTH_SHORT).show();
-                    }
-                });
+        try{
+            mAuth.createUserWithEmailAndPassword(email, password)
+                    .addOnCompleteListener(task -> {
+                        if (task.isSuccessful()) {
+                            Toast.makeText(this, "Account has been Registered", Toast.LENGTH_SHORT).show();
+                        } else {
+                            Toast.makeText(this, "Something went wrong please retry", Toast.LENGTH_SHORT).show();
+                        }
+                    });
+        } catch (Exception e){
+            Toast.makeText(null, e.getMessage(), Toast.LENGTH_SHORT).show();
+        }
     }
 
     private void Button(){
@@ -95,6 +99,7 @@ public class Login extends AppCompatActivity {
                 }
             }
         });
+
         Register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -104,11 +109,14 @@ public class Login extends AppCompatActivity {
                     if(!txtPasswordReg.getText().toString().equals(txtConPasswordReg.getText().toString())){
                         Toast.makeText(Login.this, "Password does not match!", Toast.LENGTH_SHORT).show();
                     } else {
-                        Register(txtLgnEmail.getText().toString(), txtPassword.getText().toString());
+                        String email = txtEmail.getText().toString();
+                        String pass = txtPasswordReg.getText().toString();
+                        Register(email, pass);
                     }
                 }
             }
         });
+
         btnScrnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -116,6 +124,8 @@ public class Login extends AppCompatActivity {
                 btnScrnLogin.setTextColor(getResources().getColor(R.color.WhiteText));
                 registerGroup.setVisibility(View.GONE);
                 btnScrnRegister.setTextColor(getResources().getColor(R.color.GreyText));
+                txtLgnEmail.setText("");
+                txtPassword.setText("");
             }
         });
         btnScrnRegister.setOnClickListener(new View.OnClickListener() {
@@ -125,6 +135,10 @@ public class Login extends AppCompatActivity {
                 btnScrnLogin.setTextColor(getResources().getColor(R.color.GreyText));
                 registerGroup.setVisibility(View.VISIBLE);
                 btnScrnRegister.setTextColor(getResources().getColor(R.color.WhiteText));
+                txtEmail.setText("");
+                txtUsernameReg.setText("");
+                txtPasswordReg.setText("");
+                txtConPasswordReg.setText("");
             }
         });
         btnCreate.setOnClickListener(new View.OnClickListener() {
