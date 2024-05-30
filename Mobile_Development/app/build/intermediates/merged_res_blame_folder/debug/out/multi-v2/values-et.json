@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.mobiledevelopment.app-mergeDebugResources-38:/values-et/values-et.xml",
+            "outputFile": "com.example.mobiledevelopment.app-mergeDebugResources-39:/values-et/values-et.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Engilo Grave\\.gradle\\caches\\transforms-3\\554ad4f56fc7ca97e8f1bc531764e83d\\transformed\\play-services-base-18.0.1\\res\\values-et\\values.xml",
+                    "source": "C:\\Users\\Engilo Grave\\.gradle\\caches\\transforms-3\\5be7ccd69cccfbf4ad3237c81d1cbb69\\transformed\\play-services-base-18.1.0\\res\\values-et\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",

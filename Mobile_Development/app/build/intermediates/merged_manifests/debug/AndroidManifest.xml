@@ -31,6 +31,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.MobileDevelopment" >
         <activity
+            android:name="com.example.mobiledevelopment.UserProfile"
+            android:exported="false" />
+        <activity
             android:name="com.example.mobiledevelopment.UploadPage"
             android:exported="false" />
         <activity
@@ -73,6 +76,9 @@
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"

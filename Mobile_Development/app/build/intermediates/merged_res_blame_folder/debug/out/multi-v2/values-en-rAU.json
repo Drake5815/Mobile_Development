@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.mobiledevelopment.app-mergeDebugResources-38:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.example.mobiledevelopment.app-mergeDebugResources-39:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Engilo Grave\\.gradle\\caches\\transforms-3\\42d789874f60e7a61479ad40406efe06\\transformed\\credentials-1.2.0-rc01\\res\\values-en-rAU\\values-en-rAU.xml",

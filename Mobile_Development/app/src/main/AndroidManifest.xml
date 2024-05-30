@@ -14,8 +14,12 @@
         android:theme="@style/Theme.MobileDevelopment"
         tools:targetApi="31">
         <activity
+            android:name=".UserProfile"
+            android:exported="false" />
+        <activity
             android:name=".UploadPage"
             android:exported="false" />
+
         <activity
             android:name=".BookingPage"
             android:exported="false" />
@@ -37,6 +41,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
+
     </application>
 
 </manifest>

@@ -1,28 +1,43 @@
 package com.example.mobiledevelopment.Data;
 
-public class Property {
+import android.net.Uri;
+
+import java.io.Serializable;
+import java.net.URI;
+
+public class Property implements Serializable {
     private String propertyType;
+    private String propertyName;
     private String address;
     private double price;
     private String date;
-    private String coverImgRef;
+    public String coverImgRef;
 
     public Property(){}
-    public Property(String propertyType, String address, double price, String date, String coverImgRef){
+    public Property(String propertyType,String propertyName, String address, double price, String date, String coverImgRef){
         this.propertyType = propertyType;
         this.address = address;
         this.price = price;
         this.date = date;
         this.coverImgRef = coverImgRef;
     }
+    public Property(String propertyType,String propertyName, String address, double price, String date){
+        this.propertyType = propertyType;
+        this.propertyName = propertyName;
+        this.address = address;
+        this.price = price;
+        this.date = date;
+    }
     //  SETTERS AND GETTERS
     public void setPropertyType(String propertyType){this.propertyType = propertyType;}
+    public void setPropertyName(String propertyName){this.propertyName = propertyName;}
     public void setAddress(String address){this.address = address;}
     public void setPrice(double price){this.price = price;}
     public void setDate(String date){this.date = date;}
     public void setCoverImgRef(String coverImgRef){this.coverImgRef = coverImgRef;}
 
     public String getPropertyType(){return this.propertyType;}
+    public String getPropertyName(){return this.propertyName;}
     public String getAddress(){return this.address;}
     public double getPrice(){return this.price;}
     public String getDate(){return this.date;}
@@ -56,5 +71,8 @@ public class Property {
         double denominator = Math.pow(1 + monthlyInterestRate, numberOfPayments) - 1;
 
         return numerator / denominator;
+    }
+    public void display(){
+        System.out.println("Property Type: " + propertyType + "/nAddress: " + address + "/nprice" + price + "/nDate: " + date);
     }
 }

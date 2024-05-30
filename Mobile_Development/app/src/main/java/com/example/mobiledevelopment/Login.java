@@ -6,12 +6,20 @@ import androidx.constraintlayout.widget.Group;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Toast;
+
+import com.example.mobiledevelopment.Data.UserInf;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.util.HashMap;
 
 public class Login extends AppCompatActivity {
 
@@ -64,8 +72,11 @@ public class Login extends AppCompatActivity {
         mAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(task -> {
                     if (task.isSuccessful()) {
+
                         Toast.makeText(this, "Logged-In", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(Login.this, HomePage.class));
                         Intent intent = new Intent(Login.this, HomePage.class);
+                        intent.putExtra("email", email);
                         startActivity(intent);
                     } else {
                         Toast.makeText(this, "Credentials does not match with Database", Toast.LENGTH_SHORT).show();
@@ -73,18 +84,22 @@ public class Login extends AppCompatActivity {
                 });
     }
 
-    private void Register(String email, String password){
-        try{
+    private void Register(String email, String password) {
+        try {
             mAuth.createUserWithEmailAndPassword(email, password)
                     .addOnCompleteListener(task -> {
-                        if (task.isSuccessful()) {
-                            Toast.makeText(this, "Account has been Registered", Toast.LENGTH_SHORT).show();
+                        if(task.isSuccessful()){
+                            Toast.makeText(this, "Build", Toast.LENGTH_SHORT).show();
+                            Intent intent = new Intent(Login.this, HomePage.class);
+                            intent.putExtra("email", email);
+                            startActivity(intent);
                         } else {
-                            Toast.makeText(this, "Something went wrong please retry", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(this, "Failed", Toast.LENGTH_SHORT).show();
                         }
                     });
-        } catch (Exception e){
-            Toast.makeText(null, e.getMessage(), Toast.LENGTH_SHORT).show();
+        } catch (Exception e) {
+            Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+            Log.e("RegistrationError", "Exception occurred", e);
         }
     }
 
@@ -103,7 +118,7 @@ public class Login extends AppCompatActivity {
         Register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(txtEmail.getText().toString() == null || txtPasswordReg.getText().toString() == null || txtConPasswordReg.getText().toString() == null){
+                if(txtEmail.getText().toString() == null || txtPasswordReg.getText().toString() == null || txtConPasswordReg.getText().toString() == null || txtUsernameReg.getText().toString() == null){
                     Toast.makeText(Login.this, "Please fill-in any lacking Information", Toast.LENGTH_SHORT).show();
                 } else {
                     if(!txtPasswordReg.getText().toString().equals(txtConPasswordReg.getText().toString())){
